@@ -1,0 +1,84 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;   
+}
+
+body{
+    background-color: #2C3A47;
+}
+
+
+.Wrapper{
+  width: 300px;  
+  height: 330px;
+  background-color: #dff9fb;
+  padding: 20px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+  text-align: center;
+}
+
+
+.Wrapper .AdminIcon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;    
+    padding: 5px;
+    border: 3px solid #40739e;
+    border-radius: 50%;
+
+}
+
+.Wrapper .AdminIcon:hover{
+    border: 3px solid #2ed573;
+}
+
+
+.Wrapper form input[type="email"],input[type="password"]{
+  width: 100%;
+  display: inline-block;  
+  padding: 10px;  
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  border: none;
+  outline: none;
+  border-left: 3px solid red;
+  position: relative; 
+}
+
+
+.Wrapper form input[type="submit"]{
+    padding: 6px 15px;
+    border: none;
+    outline: none;
+    background-color: #ff4757;
+    color: #ffffff; 
+    cursor: pointer;
+    float: left;
+    transition: all 1s;
+}
+
+.Wrapper form input[type="submit"]:hover{
+    background-color: #2ed573;
+}
+
+
+.EmailIcon{
+ position: absolute;   
+ top: 102px;
+ right: 23px;
+ color: #95afc0;
+ }
+
+ .PasswordIcon{
+ position: absolute;   
+ top: 153px;
+ right: 23px;  
+ cursor: pointer;
+ color: #95afc0;
+ }
